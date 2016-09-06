@@ -1,0 +1,191 @@
+/* --------- TOUT LE DOCS --------- */
+body {
+	background-color: #2C272A;
+}
+
+.separation {
+	height: 40px;
+}
+
+/* --------- NAV --------- */
+ 
+nav ul li{
+	margin-right: 10px;
+}
+
+nav ul li:hover{
+	background-color: #E7C1D6;
+	margin-right: 10px;
+}
+
+.corps {
+	padding: 10px;
+}
+
+
+
+/* --------- CSS ZONE IMAGE --------- */
+
+.fondrose{
+	background-color:  #E7C1D6;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/* --------- MES TRAVAUX --------- */
+
+	/* --------- IMAGES --------- */
+
+#challenge1 {
+    background-image: url(../img/challenge1.png);
+	height: 250px;
+	width: 450px;
+}
+
+#challenge2 {
+    background-image: url(../img/challenge2.png);
+	height: 250px;
+	width: 450px;
+
+}
+
+#challenge3 {
+    background-image: url(../img/challenge3.png);
+	height: 250px;
+	width: 450px;
+
+}
+
+#challenge4 {
+    background-image: url(../img/challenge4.png);
+	height: 250px;
+	width: 450px;
+
+}
+
+#challenge5 {
+    background-image: url(../img/challenge5.png);
+	height: 250px;
+	width: 450px;
+
+}
+
+#challenge6 {
+    background-image: url(../img/challenge6.png);
+	height: 250px;
+	width: 450px;
+
+}
+
+
+	/* --------- PROPRIETES IMAGES --------- */
+.challenge {
+    height: 200px;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.challenge h3 {
+    font-size: 250%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.challenge h4 {
+    width: 75%;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.challenge:first-child {
+    margin: 20px;
+}
+
+
+.technique p {
+    width: 90%;
+    text-align: center;
+    color: #fff;
+    cursor: default;
+    text-transform: uppercase;
+}
+
+.challenge .technique {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    opacity: 0;
+    transition: .3s;
+    flex-wrap: wrap;
+}
+
+.challenge:hover .technique {
+    background-color: #222222;;
+    opacity: .9;
+    transition: .3s;
+}
+
+
+/* css zone presentation*/
+
+.presentation{
+	color: white;
+}
+
+.presentation h4 {
+	text-align: center;
+	font-size: 22px;
+}
+
+.presentation h5 {
+	text-align: center;
+	font-size: 25px;
+}
+
+.presentation p {
+	font-size: 20px;
+}
+
+.presentation ul li {
+	font-size: 18px;
+}
+.matete {
+	margin: 20px 0 20px 0;
+	z-index: 10;
+
+}
+
+img.matete:hover{
+	height: 310px;
+	width: 220px;
+}
+
+
+
+/* --------- PAGE 1 --------- */
+
+textarea {
+	display: inline-block;
+}
+
+/* --------- FOOTER --------- */
+footer {
+	height: 50px;
+	background-color: #2C272A;
+	color: #FFFFFF;
+}
+
+.icons {
+	height: 30px;
+	width: 30px;
+	margin: 0 10px;
+}
+
+
+
+
+
