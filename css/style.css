@@ -85,6 +85,7 @@ nav ul li:hover{
     margin: 10px;
     background-size: cover;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .challenge a:link 
