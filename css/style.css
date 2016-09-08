@@ -170,6 +170,11 @@ img.matete:hover{
 
 textarea {
 	display: inline-block;
+	height: 600px;
+	width: 500px;
+}
+.css {
+	float: right;
 }
 
 /* --------- FOOTER --------- */
