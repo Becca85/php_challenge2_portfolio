@@ -118,6 +118,7 @@ nav ul li:hover{
     color: #fff;
     cursor: default;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .challenge .technique {
