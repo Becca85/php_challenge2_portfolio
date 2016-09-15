@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta author="Lise">
+    <title>Envois d'e-mail</title>
+</head>
+<link rel="icon" type="image/png" href="img/envelope.png" />
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<body>
+                    <!-- BARRE DE NAVIGATION-->
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+        </button>
+      <a class="navbar-brand" href="#">PORTFOLIO</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div> 
+     </nav>
+
+<div class="container corpMail">
+     <div class="separation"></div>
+    
+    <div class="col-md-offset-1 col-sm-offset-1 col-md-3 col-sm-3">
+        <img class="img-responsive" src="img/envelope.svg" alt="Enveloppe Image">
+    </div>
+    
+    <h2 class="text-center-xs col-md-offset-4 col-sm-offset-4">Nouveau message</h2>
+    
+    <form class="" action="email.php" method="post">
+            
+           <div class="form-group col-md-7 col-sm-7">
+                <label for="usr">Nom Prénom :</label>
+                <input type="text" class="form-control" id="usr" placeholder="Nom et prénom" name="idendite" maxlength="50">
+            </div>
+
+            <div class="form-group col-md-7  col-sm-7">
+                <label for="email">E-mail :</label>
+                <input type="email" class="form-control" id="email" placeholder="E-mail" name="email" maxlength="50">
+            </div>
+
+            <div class="form-group col-md-7  col-sm-7">
+                <label for="objet">Objet :</label>
+                <input type="text" class="form-control" id="objet" placeholder="objet" name="objet" maxlength="50">
+            </div>
+
+            <div class="form-group col-sm-offset-4 col-md-7  col-sm-7">
+                <label for="message">Message :</label>
+                <textarea class="form-control" name="message" id="comment" cols="30" rows="8" maxlength="2000" placeholder="Message"></textarea>
+            </div>
+
+            <div class="form-group col-md-offset-4 col-sm-offset-4 col-md-7  col-sm-7">
+                <input id="input-repl-2" type="file" class="file-loading" accept="image/*" name="fichier">
+            </div>
+
+            <div class="form-group col-md-offset-4  col-sm-offset-4 col-md-7 col-sm-7">
+                <button type="submit" class="btn">Envoyer</button>
+            </div>
+    </form>
+
+                            <!-- Footer-->
+</div>
+</body>
+   <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-2 contact"><h4>CONTACT </h4></div>
+            <div class="col-lg-2 contact"><a href="#"><img src="img/icons/svg/facebook.svg" class="icons"></a></div>
+            <div class="col-lg-2 contact"><a href="#"><img src="img/icons/svg/twitter.svg" class="icons"></a></div>
+            <div class="col-lg-3 contact"><img src="img/icons/svg/email.svg" class="icons"/>
+            <p>rebecca@gmail.com</p></div>
+            <div class="col-lg-3 contact"><img src="img/icons/svg/phone.svg" class="icons"/>
+            <p>06.88.62.49.40</p></div>
+   </footer>
+
+
+</html>

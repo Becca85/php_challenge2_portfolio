@@ -8,14 +8,18 @@ body {
 }
 
 /* --------- NAV --------- */
- 
+.navbar-right{
+	margin-right: 15px;
+}
+
 nav ul li{
 	margin-right: 10px;
 }
 
 nav ul li:hover{
-	background-color: #E7C1D6;
+	background-color: #E9E2E7;
 	margin-right: 10px;
+	color: #2C272A;
 }
 
 .corps {
@@ -27,7 +31,7 @@ nav ul li:hover{
 /* --------- CSS ZONE IMAGE --------- */
 
 .fondrose{
-	background-color:  #E7C1D6;
+	background-color:  #E9E2E7;
 	padding-left: 0px;
 	padding-right: 0px;
 }
@@ -38,44 +42,50 @@ nav ul li:hover{
 
 #challenge1 {
     background-image: url(../img/challenge1.png);
-	height: 250px;
-	width: 450px;
+	height: 100%;
+	width: 95%;
 	background-size: cover;
+	background-position: center center;
 }
 
 #challenge2 {
     background-image: url(../img/challenge2.png);
-	height: 250px;
-	width: 450px;
-
+	height: 100%;
+	width: 95%;
+	background-size: cover;
+	background-position: center center;
 }
 
 #challenge3 {
     background-image: url(../img/challenge3.png);
-	height: 250px;
-	width: 450px;
-
+	height: 100%;
+	width: 95%;
+	background-size: cover;
+	background-position: center center;
 }
 
 #challenge4 {
     background-image: url(../img/challenge4.png);
-	height: 250px;
-	width: 450px;
-
+	height: 100%;
+	width: 95%;
+	background-size: cover;
+	background-position: center center;
 }
 
 #challenge5 {
     background-image: url(../img/challenge5.png);
-	height: 250px;
-	width: 450px;
-
+	height: 100%;
+	width: 95%;
+	background-size: cover;
+	background-position: center center;
 }
 
 #challenge6 {
     background-image: url(../img/challenge6.png);
-	height: 250px;
-	width: 450px;
-
+	height: 100%;
+	width: 95%;
+	background-size: cover;
+	background-position: center center;
 }
 
 
@@ -111,6 +121,9 @@ nav ul li:hover{
     margin: 20px;
 }
 
+.technique {
+	padding: 20px 0px 40px 0px;
+}
 
 .technique p {
     width: 90%;
@@ -164,6 +177,7 @@ nav ul li:hover{
 .matete {
 	margin: 20px 0 20px 0;
 	z-index: 10;
+	border-radius: 100%;
 
 }
 
@@ -185,6 +199,46 @@ textarea {
 	float: right;
 }
 
+
+/* --------- CSS PAGE CONTACT --------- */
+
+.corpMail{
+	background-color: #E9E2E7;
+	width: 96%;
+}
+
+h2 {
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: black; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+label {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2C272A;
+    color: white;
+}
+
+
+img {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.confirm {
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+
 /* --------- FOOTER --------- */
 footer {
 	height: 50px;
@@ -195,7 +249,12 @@ footer {
 .icons {
 	height: 30px;
 	width: 30px;
-	margin: 0 10px;
+	margin: 0px 10px;
+}
+.contact {
+	text-align: center;
+	vertical-align: center;
+	margin-top: 10px;
 }
 
 
