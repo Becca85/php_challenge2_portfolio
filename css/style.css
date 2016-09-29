@@ -11,8 +11,12 @@
 body {
 	background-color: #2C272A;
 	font-family: Lora, serif;
+	padding-right: 0px;
 }
-
+.portfolio{
+	padding-left: 0px;
+	padding-right: 0px;
+}
 
 .separation {
 	height: 40px;
@@ -42,7 +46,7 @@ nav ul li:hover{
 /* --------- CSS ZONE IMAGE --------- */
 
 .fondrose{
-	background-color:  #E9E2E7;
+	background-color: #E9E2E7;
 	padding-left: 0px;
 	padding-right: 0px;
 }
@@ -163,6 +167,10 @@ nav ul li:hover{
 
 /* css zone presentation*/
 
+.fondGris{
+	background-color: red;
+}
+
 .presentation{
 	color: white;
 }
@@ -222,7 +230,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     color: black; 
-    margin-top: 15px;
+    margin-top: 35px;
     margin-bottom: 15px;
 }
 
@@ -253,9 +261,13 @@ img {
 
 
 .curiculum {
-	
 	padding-left: 0px;
-
+	padding-right: 0px;
+}
+.rowCV{
+	background-color: #E9E2E7;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 p {
@@ -294,8 +306,9 @@ p {
 
 .titreCv{
 	text-align: center;
+	font-weight: bold;
 	margin-bottom: 20px;
-	color: #E7C1D6;
+	color: white;
 }
 
 h3 {
@@ -346,8 +359,8 @@ h3 {
 /*Colone 2*/
 
 .colone2 {
-	background-color: #E7C1D6;
-	color: #2C272A;;
+	background-color: #E9E2E7;
+	color: #2C272A;
 }
 
 /*format des experiences*/
@@ -410,6 +423,10 @@ footer {
 	margin-top: 10px;
 	text-decoration: none;
 	color: #FFFFFF;
+}
+
+.pContact{
+display: inline;
 }
 
 .contact a {
