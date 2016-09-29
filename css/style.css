@@ -1,7 +1,18 @@
 /* --------- TOUT LE DOCS --------- */
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lora'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v9/4vqKRIwnQQGUQQh-PnvdMA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
 body {
 	background-color: #2C272A;
+	font-family: Lora, serif;
 }
+
 
 .separation {
 	height: 40px;
@@ -235,6 +246,149 @@ img {
 .confirm {
     margin-bottom: 10px;
     margin-top: 50px;
+}
+
+/* --------- CV --------- */
+/* latin */
+
+
+.curiculum {
+	
+	padding-left: 0px;
+
+}
+
+p {
+	font-size: 15px;
+}
+
+/*1er colone*/
+.colone1 {
+	background-color: #2C272A;
+	color: white;
+}
+/*format des info perso*/
+
+.nom {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.detailsInfoPerso {
+	font-size: 18px;
+}
+
+.detailsInfoPerso a {
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+
+.annee {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*format des competences*/
+
+.titreCv{
+	text-align: center;
+	margin-bottom: 20px;
+	color: #E7C1D6;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+
+/*format des div pourcentage*/
+
+.quatreVingt {
+	width: 80%;
+    height: 20px;
+    background-color: #E7C1D6;
+    text-align: center;
+    color: #2C272A;
+    margin-bottom: 3px;
+}
+
+.soixanteDix {
+	width: 70%;
+    height: 20px;
+    background-color: #E7C1D6;
+    text-align: center;
+    color: #2C272A;
+    margin-bottom: 3px;
+}
+
+.soixante {
+	width: 60%;
+    height: 20px;
+    background-color: #E7C1D6;
+    text-align: center;
+    color: #2C272A;
+    margin-bottom: 3px;
+}
+
+.cinquante {
+	width: 50%;
+    height: 20px;
+    background-color: #E7C1D6;
+    text-align: center;
+    color: #2C272A;
+    margin-bottom: 3px;
+}
+
+/*Colone 2*/
+
+.colone2 {
+	background-color: #E7C1D6;
+	color: #2C272A;;
+}
+
+/*format des experiences*/
+
+
+.poste {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.date {
+	float: left;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: italic;
+	margin-top: 60px;
+}
+
+.lieu {
+	float: right;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 18px;
+	margin-top: 60px;
+}
+
+.entreprise {
+	float: right;
+	font-size: 17px;
+	margin-top: 60px;
+}
+
+.tache {
+	margin-left: 25px;
+}
+
+.immo {
+	padding-right: 0px;
 }
 
 
